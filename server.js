@@ -13,7 +13,7 @@
 //   bot.sendMessage(chatId, `Hello, ${req.from.first_name}`);
 //   bot.sendMessage(chatId, `received your message as, ${message.text}`);
 // });
-
+     
 // const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
 
 // bot.onText("/weather (.+)", async (req) => {
