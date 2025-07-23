@@ -8,7 +8,7 @@
         
 // bot.onText("/start", (req) => {
 //   const message = req;
-//   const chatId = req.chat.id;             
+//   const chatId = req.chat.id;                           
 //   // console.log('msg ',req);
 //   bot.sendMessage(chatId, `Hello, ${req.from.first_name}`);
 //   bot.sendMessage(chatId, `received your message as, ${message.text}`);
