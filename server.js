@@ -98,7 +98,7 @@ bot.action(/country:(.+)/, async (ctx) => {
 
 // Step 3: User selects a state
 bot.action(/state:(.+)/, async (ctx) => {
-  const state = ctx.match[1];
+  const state = ctx.match[1];                
   ctx.answerCbQuery();
   const cities = citiesByState[state] || [];
   if (!cities.length) return ctx.reply("❌ No cities found in this state.");
