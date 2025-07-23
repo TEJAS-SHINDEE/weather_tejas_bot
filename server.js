@@ -78,7 +78,7 @@ bot.command("weather", (ctx) => {
     Markup.inlineKeyboard(
       countries.map((c) => [Markup.button.callback(c, `country:${c}`)])
     )
-  );
+  );                
 });
 
 // Step 2: User selects a country
