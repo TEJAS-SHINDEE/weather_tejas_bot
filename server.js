@@ -4,7 +4,7 @@
 // dotenv.config();
 
 // const token = process.env.API_KEY;
-// const bot = new TelegramBot(token, { polling: true });
+// const bot = new TelegramBot(token, { polling: true });                    
         
 // bot.onText("/start", (req) => {                              
 //   const message = req;             
